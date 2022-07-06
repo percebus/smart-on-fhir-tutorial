@@ -1,0 +1,34 @@
+{
+  "name": "smart-on-fhir-tutorial",
+  "version": "0.1.0",
+  "description": "See [SMART on FHIR developer tutorial](https://engineering.cerner.com/smart-on-fhir-tutorial/)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/percebus/smart-on-fhir-tutorial.git"
+  },
+  "keywords": [
+    "Cerner",
+    "SMART",
+    "FHIR",
+    "JavaScript",
+    "JS",
+    "client",
+    "HTML"
+  ],
+  "author": "Cerner",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/percebus/smart-on-fhir-tutorial/issues"
+  },
+  "homepage": "https://github.com/percebus/smart-on-fhir-tutorial#readme",
+  "dependencies": {
+    "fhirclient": "0.1.12"
+  }
+}
