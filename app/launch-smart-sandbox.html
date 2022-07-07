@@ -31,7 +31,7 @@
     <script>
       console.info('CLIENT_ID', CLIENT_ID)
       FHIR.oauth2.authorize({
-        'client_id': SMART_HEALTH_IT_CLIENT_ID,
+        'client_id': CLIENT_ID,
         'scope':  'patient/Patient.read patient/Observation.read launch online_access openid profile'
       });
     </script>
