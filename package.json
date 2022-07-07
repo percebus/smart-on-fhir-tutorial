@@ -13,7 +13,15 @@
     "yarn:licenses:generate-disclaimer:prod": "yarn licenses generate-disclaimer --prod > LICENSES.md",
     "yarn:licenses:prod": "npm run yarn:licenses:list:prod && npm run yarn:licenses:generate-disclaimer:prod",
     "LICENSES": "npm run yarn:licenses:prod",
+    "standard": "standard --fix app/src/js/**/*.js",
+    "lint:js": "npm run standard",
+    "lint": "npm run lint:js",
     "test": "exit 0"
+  },
+  "standard": {
+    "env": [
+      "jquery"
+    ]
   },
   "repository": {
     "type": "git",
@@ -37,6 +45,10 @@
   "dependencies": {
     "cerner-smart-embeddable-lib": "1.0.0",
     "fhir-client-cerner-additions": "github:cerner/fhir-client-cerner-additions",
-    "fhirclient": "0.1.12"
+    "fhirclient": "0.1.12",
+    "jquery": "1.12.4"
+  },
+  "devDependencies": {
+    "standard": "latest"
   }
 }
