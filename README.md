@@ -8,6 +8,8 @@ See [SMART on FHIR developer tutorial](https://engineering.cerner.com/smart-on-f
 
 #### Local copy 
 
+See [`docs/tutorial/`](https://percebus.github.io/smart-on-fhir-tutorial/docs/tutorial/)
+
 ```bash
 $> serve docs/tutorial
 ```
