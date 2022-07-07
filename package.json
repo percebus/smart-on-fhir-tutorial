@@ -17,7 +17,9 @@
     "lint:js": "npm run standard",
     "lint": "npm run lint:js",
     "test": "exit 0",
-    "start": "serve ./app"
+    "serve:app": "serve --debug ./app",
+    "serve:tutorial": "serve ./docs/tutorial",
+    "start": "npm run serve:app"
   },
   "standard": {
     "env": [
