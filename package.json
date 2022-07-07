@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/percebus/smart-on-fhir-tutorial#readme",
   "dependencies": {
-    "cerner-smart-embeddable-lib": "^1.5.0",
+    "cerner-smart-embeddable-lib": "1.0.0",
     "fhir-client-cerner-additions": "github:cerner/fhir-client-cerner-additions",
     "fhirclient": "0.1.12"
   }

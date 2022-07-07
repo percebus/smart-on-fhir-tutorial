@@ -1,6 +1,6 @@
 yarn licenses v1.22.19
 ├─ == LICENSE
-│  ├─ cerner-smart-embeddable-lib@1.5.0
+│  ├─ cerner-smart-embeddable-lib@1.0.0
 │  │  ├─ URL: https://github.com/cerner/cerner-smart-embeddable-lib.git
 │  │  └─ VendorName: Cerner Corporation, SMART on FHIR
 │  └─ fhir-client-cerner-additions@1.0.0
@@ -40,4 +40,4 @@ yarn licenses v1.22.19
    │  └─ VendorName: Ben Newman
    └─ uuid@3.4.0
       └─ URL: https://github.com/uuidjs/uuid.git
-Done in 5.07s.
+Done in 2.25s.
