@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "npm:install:global": "npm install --location=global yarn",
+    "npm:install:global": "npm install --location=global yarn serve",
     "setup": "npm run npm:install:global",
     "yarn:licenses:list:prod": "yarn licenses list --prod > LICENSES.txt",
     "yarn:licenses:generate-disclaimer:prod": "yarn licenses generate-disclaimer --prod > LICENSES.md",
@@ -16,7 +16,8 @@
     "standard": "standard --fix app/src/js/**/*.js",
     "lint:js": "npm run standard",
     "lint": "npm run lint:js",
-    "test": "exit 0"
+    "test": "exit 0",
+    "start": "serve ./app"
   },
   "standard": {
     "env": [

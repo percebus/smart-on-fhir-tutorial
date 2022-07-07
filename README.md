@@ -10,15 +10,35 @@ See [SMART on FHIR developer tutorial](https://engineering.cerner.com/smart-on-f
 
 See [`docs/tutorial/`](https://percebus.github.io/smart-on-fhir-tutorial/docs/tutorial/)
 
+### Setup
+
+#### First time
+
 ```bash
-$> serve docs/tutorial
+$> npm run setup
 ```
 
-#### code-console
+#### Dependencies
+
+```bash
+$> npm install
+```
+
+### Example SMART app
+
+`./app`
+
+#### Local
+
+```bash
+$> npm start
+```
+
+### code-console
 
 ![apps](./README/cerner/code-console/apps.png)
 
-##### App
+#### App
 
 ![app](./README/cerner/code-console/app/settings.png)
 
@@ -27,9 +47,9 @@ $> serve docs/tutorial
 ![patient API](./README/cerner/code-console/app/API/patient.png)
 
 
-##### Test Sandbox
+#### Test Sandbox
 
-###### Wilma SMART
+##### Wilma SMART
 
 ![entry](./README/cerner/code-console/app/SMART/Wilma/entry.png)
 
