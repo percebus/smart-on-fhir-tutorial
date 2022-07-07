@@ -26,8 +26,9 @@
     <script src='./lib/js/fhir-client-cerner-additions-1.0.0.js'></script>
     <script src='./cfg/config.js'></script>
     <script>
+      console.info('CLIENT_ID', CLIENT_ID)
       FHIR.oauth2.authorize({
-        'client_id': window.CLIENT_ID,
+        'client_id': CLIENT_ID,
         'scope':  'patient/Patient.read patient/Observation.read launch/patient online_access openid profile'
       });
     </script>
