@@ -7,6 +7,12 @@
     "doc": "docs"
   },
   "scripts": {
+    "npm:install:global": "npm install --location=global yarn",
+    "setup": "npm run npm:install:global",
+    "yarn:licenses:list:prod": "yarn licenses list --prod > LICENSES.txt",
+    "yarn:licenses:generate-disclaimer:prod": "yarn licenses generate-disclaimer --prod > LICENSES.md",
+    "yarn:licenses:prod": "npm run yarn:licenses:list:prod && npm run yarn:licenses:generate-disclaimer:prod",
+    "LICENSES": "npm run yarn:licenses:prod",
     "test": "exit 0"
   },
   "repository": {
@@ -29,6 +35,8 @@
   },
   "homepage": "https://github.com/percebus/smart-on-fhir-tutorial#readme",
   "dependencies": {
+    "cerner-smart-embeddable-lib": "^1.5.0",
+    "fhir-client-cerner-additions": "github:cerner/fhir-client-cerner-additions",
     "fhirclient": "0.1.12"
   }
 }
